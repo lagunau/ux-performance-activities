@@ -65,13 +65,13 @@ p {
 /* HEADER SECTION */
 
 #header {
-  background: url(assets/img/header.jpg) no-repeat center top;
+  background: url(../img/header.jpg) no-repeat center top;
   padding-top: 200px;
   text-align: center;
   background-attachment: relative;
   background-position: center center;
   min-height: 700px;
-  width: 100px;
+  width: 100%;
 }
 
 #header h1 {
@@ -82,6 +82,10 @@ p {
 
 #header h2 {
   color: #1ba39c;
+}
+
+div.row.centered {
+  display: block;
 }
 
 /* CALL TO ACTION SECTION */
